@@ -4,3 +4,5 @@
 /gradlew
 /gradlew.bat
 /package-lock.php.yml
+/vendor/**
+/jsrs/
