@@ -1,0 +1,27 @@
+name: jphp-ftpserver-ext
+version: 1.0.0
+deps:
+  jphp-runtime: '*'
+
+plugins: [Gradle, Hub, Doc]
+
+gradle:
+   deps:
+      - "com.guichaguri:minimalftp:1.0.6"
+
+hub:
+   login: 'yousan4ik@gmail.com'
+
+config:
+  ignore:
+    - '/sandbox/**'
+    - '/.idea/**'
+    - '/*.iml'
+    - '/.git/**'
+    - '/package.hub.yml'
+
+doc:
+  url-prefix: https://github.com/jphp-group/jphp-ftpserver-ext/blob/master/api-docs/
+  langs:
+    en: English
+    ru: Русский
